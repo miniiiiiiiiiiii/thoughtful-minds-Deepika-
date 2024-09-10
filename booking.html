@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Appointment - Mindful Minds Counseling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mindful Minds Counseling Services</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="booking.html">Book Appointment</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Logout</a> <!-- Logout option here -->
+        </nav>
+    </header>
+
+    <!-- Booking Section -->
+    <section>
+        <h2>Book an Appointment</h2>
+        <label for="appointment-date">Choose Date:</label>
+        <input type="date" id="appointment-date" name="appointment-date">
+
+        <label for="appointment-time">Choose Time:</label>
+        <input type="time" id="appointment-time" name="appointment-time">
+
+        <button>Book Now</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mindful Minds Counseling Services</p>
+    </footer>
+
+</body>
+</html>
